@@ -1,0 +1,11 @@
+{
+  "name": "callback-pattern",
+  "version": "1.0.0",
+  "description": "understanding the hoc functions and callback functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harshblip",
+  "license": "ISC"
+}
