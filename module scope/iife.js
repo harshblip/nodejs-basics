@@ -1,14 +1,14 @@
 // immediately invoked function expression
 
-(function () {
+(function (name, prefix) {
     const superHero = "Batman";
-    console.log(superHero);
-})();
+    console.log(`${name} ${prefix}${superHero}`);
+})("Hello", "Mr.");
 
-(function () {
+(function (name, prefix) {
     const superHero = "Superman";
-    console.log(superHero);
-})();
+    console.log(`${name} ${prefix}${superHero}`);
+})("Hi", "Mr.");
 
 // (function (){
     // module code
